@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.js" async></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="main-box">
+			<h1 class="main-header">Weather Forecast</h1>
+			<input type="search" name="search-input" id="search-input" class="search-input" placeholder="Please write city name">
+			<div class="weather-display-container">
+				<h2 class="weather__header-h2">Location</h2>
+				<img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather icon" class="weather__ico">
+				<div class="weather__description">Weather</div>
+				<div class="weather__humidity">Humidity: <span class="weather__humidity-display">67%</span> </div>
+				<div class="weather__temperature">
+					<div class="temperature-actual">10°C</div>	
+					<div class="temperature-min">8°C</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+</body>
+</html>
